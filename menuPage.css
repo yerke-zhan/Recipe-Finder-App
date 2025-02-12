@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+form {
+    display: inline-block;
+    margin: 20px 0;
+   
+}
+
+form label {
+    margin-right: 10px;
+}
+
+form input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 5px 10px;
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+#breakfast-menu {
+    padding: 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+
+
+  }
+#menu-items {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.menu-item p {
+    margin: 10px 0;
+    font-size: 1em;
+    
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="menuPage.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to iFoody</h1>
+        <form id="name-form">
+            <label for="name">Enter Name:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit">Submit</button>
+        </form>
+       
+    </header>
+    
+    <main>
+        <section class="search">
+            <input type="search" placeholder="Search for dish..." id="search-input"> 
+    
+        </section>
+        <section class="menu" id="breakfast-menu">
+            <h2>Breakfast Menu</h2>
+            <div id="menu-items">
+                <div id="read"></div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 iFoody. All rights reserved.</p>
+    </footer>
+    <script src="menuPage.js"></script>
+</body>
+</html>
